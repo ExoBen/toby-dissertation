@@ -172,8 +172,9 @@ img::-moz-selection {
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 56px);
-  background-position: center center;
+  background-position: bottom right;
   background-size: cover;
+  width: 100%;
 }
 
 hr {
