@@ -139,3 +139,11 @@ p, .quote-blue {
 .art-video {
   padding: 20px 20px 30px;
 }
+
+td > a {
+  color: white;
+}
+
+td > a:hover {
+  color: white;
+}
