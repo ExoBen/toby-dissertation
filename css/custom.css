@@ -107,7 +107,20 @@ h3 {
   font-size: 18px;
 }
 
+.quote-blue {
+  padding: 40px;
+  margin: 15px 40px 25px;
+  background-color: #E5F0FF;
+  font-size: 18px;
+}
+
 p, .quote {
+  font-size: 21px;
+  font-family: Calibri, 'Trebuchet MS', sans-serif;
+  width: 100%;
+}
+
+p, .quote-blue {
   font-size: 21px;
   font-family: Calibri, 'Trebuchet MS', sans-serif;
   width: 100%;
