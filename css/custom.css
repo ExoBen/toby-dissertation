@@ -3,7 +3,7 @@
 
 @media (min-width: 1200px) {
   .container {
-    max-width: 1400px;
+    max-width: 1000px;
   }
 }
 
@@ -55,7 +55,7 @@ header.masthead>div {
 }
 
 #title {
-  font-size: 55px;
+  font-size: 50px;
 }
 
 #subtitle > p {
@@ -98,30 +98,31 @@ h3 {
   vertical-align: top;
   padding: 10px;
   border-width: 0;
+  min-width: 130px;
 }
 
 .quote {
   padding: 40px;
   margin: 15px 40px 25px;
   background-color: #FFF;
-  font-size: 18px;
+  font-size: 20px;
 }
 
 .quote-blue {
   padding: 40px;
   margin: 15px 40px 25px;
   background-color: #E5F0FF;
-  font-size: 18px;
+  font-size: 20px;
 }
 
 p, .quote {
-  font-size: 21px;
+  font-size: 20px;
   font-family: Calibri, 'Trebuchet MS', sans-serif;
   width: 100%;
 }
 
 p, .quote-blue {
-  font-size: 21px;
+  font-size: 20px;
   font-family: Calibri, 'Trebuchet MS', sans-serif;
   width: 100%;
 }
@@ -129,11 +130,11 @@ p, .quote-blue {
 .figure {
   margin: 0 auto;
   text-align: center;
-  padding: 10px 10px 30px;
+  padding: 50px 10px 30px;
 }
 
 .figure-img {
-  height: 600px;
+  max-height: 600px;
 }
 
 .art-video {
@@ -146,4 +147,8 @@ td > a {
 
 td > a:hover {
   color: white;
+}
+
+section {
+  padding: inherit 100px !important; 
 }
