@@ -1,5 +1,4 @@
-
-/* Header */
+/* All */
 
 @media (min-width: 1200px) {
   .container {
@@ -7,9 +6,26 @@
   }
 }
 
+h2 {
+  padding-bottom: 20px;
+}
 
-header.masthead {
-  height: 100vh;
+h3 {
+  font-size: 24px;
+}
+
+
+/* Nav */
+
+
+nav > .container {
+  max-width: 1200px;
+}
+
+@media (max-width: 1040px) {
+  #mainNav .navbar-nav > li.nav-item > a.nav-link {
+    font-size: 13px;
+  }
 }
 
 .dropdown-item {
@@ -28,6 +44,12 @@ header.masthead {
 .dropdown-item:active, .dropdown-item.active {
   background-color: white !important;
   color: #07265C !important;
+}
+
+/* Header */
+
+header.masthead {
+  height: 100vh;
 }
 
 header.masthead>div>div {
@@ -74,21 +96,13 @@ header.masthead>div {
 
 #svg-arrow-container {
   width: 100%;
-  margin-top: 100px;
   padding: 30px;
-  position:relative;
-  bottom: 5%;
+  position: relative;
 }
 
 /* Main Content */
 
-h2 {
-  padding-bottom: 20px;
-}
 
-h3 {
-  font-size: 24px;
-}
 
 .bg-light-blue {
   background-color: #E5F0FF;
@@ -151,4 +165,43 @@ td > a:hover {
 
 section {
   padding: inherit 100px !important; 
+}
+
+
+/* Responsive header text */
+
+@media (max-height: 900px) {
+  #title > strong {
+    font-size: 44px;
+  }
+
+  #subtitle > strong {
+    font-size: 24px;
+  }
+
+  #subtitle {
+    padding: 00px;
+  }
+
+  header > .layer {
+    padding: 120px 50px 50px 50px !important;
+  }
+
+  header.masthead hr {
+    margin: 10px auto !important;
+  }
+}
+
+@media (max-width: 768px) {
+  #title > strong {
+    font-size: 36px;
+  }
+
+  #subtitle > strong {
+    font-size: 18px;
+  }
+
+  #subtitle > p {
+    font-size: 16px;
+  }
 }
