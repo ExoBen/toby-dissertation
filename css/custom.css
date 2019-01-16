@@ -170,6 +170,11 @@ section {
   padding: inherit 100px !important; 
 }
 
+#subtitle > p {
+  font-size: 18px;
+  margin-bottom: 15px !important;
+}
+
 
 /* Responsive header text */
 
@@ -183,7 +188,7 @@ section {
   }
 
   #subtitle {
-    padding: 00px;
+    padding: 0px;
   }
 
   header > .layer {
@@ -192,6 +197,58 @@ section {
 
   header.masthead hr {
     margin: 10px auto !important;
+  }
+}
+
+@media (max-height: 740px) {
+  header > .layer {
+    padding: 80px 50px 50px 50px !important;
+  }
+}
+
+@media (max-height: 700px) {
+  #title > strong {
+    font-size: 36px;
+  }
+
+  #subtitle > strong {
+    font-size: 18px;
+  }
+
+  #subtitle {
+    font-size: 1rem;
+  }
+
+  #subtitle > p {
+    font-size: 16px;
+  }
+}
+
+@media (max-height: 600px) {
+  #title > strong {
+    font-size: 30px;
+  }
+
+  #subtitle > strong {
+    font-size: 16px;
+  }
+
+  #subtitle > p {
+    font-size: 14px;
+  }
+}
+
+@media (max-height: 535px) {
+  header > .layer {
+    padding: 50px 50px 50px 50px !important;
+}
+
+  #subtitle > strong {
+    font-size: 16px;
+  }
+
+  #subtitle > p {
+    font-size: 14px;
   }
 }
 
@@ -215,7 +272,4 @@ section {
   }
 }
 
-#subtitle > p {
-  font-size: 18px;
-  margin-bottom: 15px !important;
-}
+
