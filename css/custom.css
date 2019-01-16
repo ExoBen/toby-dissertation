@@ -266,6 +266,28 @@ section {
   }
 }
 
+@media (max-width: 615px) {
+  #title > strong {
+    font-size: 30px;
+  }
+
+  #title {
+    line-height: 0.9;
+  }
+
+  #subtitle > strong {
+    font-size: 14px;
+  }
+
+  #subtitle {
+    font-size: 1rem;
+  }
+
+  #subtitle > p {
+    font-size: 14px;
+  }
+}
+
 @media (max-width: 1000px) {
   header.masthead {
     padding-top: 0px;
