@@ -92,9 +92,15 @@ header.masthead>div {
 }
 
 #svg-arrow-container {
+  cursor: pointer;
+  position: absolute;
+  bottom: 2px;
   width: 100%;
+  margin: 0 auto;
+  z-index: 105;
+  display: flex;
+  justify-content: center;
   padding: 30px;
-  position: relative;
 }
 
 /* Main Content */
